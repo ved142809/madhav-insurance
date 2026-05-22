@@ -1218,3 +1218,39 @@ footer p{
     }
 
 }
+/* =========================
+   FINAL MOBILE TOP FIX
+========================= */
+
+@media(max-width:768px){
+
+    .navbar{
+        position:relative;
+        z-index:9999;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:15px;
+        padding:20px 10px;
+    }
+
+    .nav-links{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+        width:100%;
+    }
+
+    .nav-links a{
+        font-size:14px;
+        padding:8px 12px;
+    }
+
+    .hero,
+    .top-cards{
+        margin-top:40px;
+    }
+
+}
