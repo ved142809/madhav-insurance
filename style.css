@@ -1101,6 +1101,77 @@ footer p{
 .stat-card{
     transition:0.5s;
 }
+/* =========================
+   MOBILE RESPONSIVE FIX
+========================= */
+
+@media(max-width:768px){
+
+    /* NAVBAR */
+
+    nav{
+        padding:20px;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .logo img{
+        width:180px;
+    }
+
+    /* HERO SECTION */
+
+    .hero{
+        padding-top:120px;
+        flex-direction:column;
+        text-align:center;
+        gap:40px;
+    }
+
+    .hero-left{
+        width:100%;
+        padding:20px;
+    }
+
+    .hero-right{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    /* CHATBOT FIX */
+
+    .chatbot-box{
+        width:95% !important;
+        left:10px !important;
+        right:10px !important;
+        bottom:90px !important;
+    }
+
+    .chat-input{
+        display:flex;
+        gap:10px;
+    }
+
+    .chat-input input{
+        width:100%;
+    }
+
+    .chat-input button{
+        width:auto;
+        padding:12px 18px;
+        font-size:16px;
+    }
+
+}
 
 .stat-card:hover{
     transform:translateY(-15px) scale(1.03);
